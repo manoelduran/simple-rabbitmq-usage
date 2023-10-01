@@ -1,0 +1,13 @@
+{
+  "name": "simple-rabbitmq-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "chmod +x ./scripts/run-producer.sh && ./scripts/run-producer.sh && chmod +x ./scripts/run-consumer.sh && ./scripts/run-consumer.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
